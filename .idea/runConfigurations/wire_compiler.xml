@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="wire-compiler" type="JarApplication">
+    <option name="JAR_PATH" value="$PROJECT_DIR$/tools/wire-compiler-4.8.0-jar-with-dependencies.jar" />
+    <option name="PROGRAM_PARAMETERS" value="--proto_path=proto --kotlin_out=gen_src DataTypes.proto FederateAmbassador.proto RtiAmbassador.proto" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <module name="fedpro" />
+    <method v="2" />
+  </configuration>
+</component>

@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="squareup.wire.runtime.jvm" type="repository">
+    <properties maven-id="com.squareup.wire:wire-runtime-jvm:4.8.0">
+      <exclude>
+        <dependency maven-id="org.jetbrains.kotlin:kotlin-stdlib-jdk8" />
+        <dependency maven-id="org.jetbrains.kotlin:kotlin-stdlib-common" />
+      </exclude>
+    </properties>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/wire-runtime-jvm-4.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/okio-jvm-3.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/wire-runtime-jvm-4.8.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/okio-jvm-3.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
